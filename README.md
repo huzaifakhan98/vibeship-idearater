@@ -8,6 +8,46 @@ Test if your startup idea has PMF (Product-Market Fit) potential. Get a brutally
 
 ![Vibeship IdeaRater Landing Page](docs/landing.png)
 
+## Installation & Setup
+
+### Prerequisites
+
+- Node.js 18+ and npm
+- An Anthropic API key (Claude Haiku)
+
+### Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vibeship/idearater.git
+   cd idearater
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory with your Anthropic API key:
+   ```
+   ANTHROPIC_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Production Build
+
+To build for production:
+```bash
+npm run build
+npm run preview
+```
+
 ## How It Works
 
 1. Describe your startup idea in plain English
